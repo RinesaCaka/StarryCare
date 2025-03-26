@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">StarryCare</string>
+    <string name="welcome_page">Starry Care</string>
+    <string name="subtitle_text">Plan your glow-up journey</string>
+    <string name="get_started">Get started</string>
 </resources>
