@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388301311054",
+    "project_id": "starrycare-dde84",
+    "storage_bucket": "starrycare-dde84.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388301311054:android:c5265c9c571e02f49cc71f",
+        "android_client_info": {
+          "package_name": "com.example.starrycare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbhlxIQmwoY26S18FIe4MuGxOyfOGpzB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
