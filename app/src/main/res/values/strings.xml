@@ -3,4 +3,18 @@
     <string name="welcome_page">Starry Care</string>
     <string name="subtitle_text">Plan your glow-up journey</string>
     <string name="get_started">Get started</string>
+    <string name="next">Next</string>
+    <string name="question1">What’s your self-care vibe right now?</string>
+    <string name="question1_answer1">Relax and Unwind</string>
+    <string name="question1_answer2">Glow Up and Shine</string>
+    <string name="question1_answer3">Feel Empowered</string>
+    <string name="question2">When do you want to glow up?</string>
+    <string name="question2_answer1">Morning Magic</string>
+    <string name="question2_answer2">Afternoon Bliss</string>
+    <string name="question2_answer3">Evening Serenity</string>
+    <string name="question2_switch">Remind me post self-care activities</string>
+    <string name="question3">What lifts your spirits?</string>
+    <string name="question3_answer1">Inspiring Quotes</string>
+    <string name="question3_answer2">Cute Affirmations</string>
+    <string name="question3_answer3">Self-Care Challenges</string>
 </resources>
