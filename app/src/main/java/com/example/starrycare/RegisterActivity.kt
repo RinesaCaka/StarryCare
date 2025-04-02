@@ -1,7 +1,12 @@
 package com.example.starrycare
+
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.widget.*
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 
@@ -51,7 +56,15 @@ class RegisterActivity : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     Toast.makeText(this, "Registration Successful", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this, LoginActivity::class.java))
+                    // Set isFirstLogin to true for new users
+                    val sharedPref = getSharedPreferences("UserPrefs", Context.MODE_PRIVATE)
+                    with(sharedPref.edit()) {
+                        putBoolean("isFirstLogin", true) // Ensure it’s true for the first login
+                        apply()
+                    }
+                    // Redirect to OnboardingActivity directly
+                    val intent = Intent(this, OnboardingActivity::class.java)
+                    startActivity(intent)
                     finish()
                 } else {
                     Toast.makeText(this, "Registration Failed: ${task.exception?.message}", Toast.LENGTH_SHORT).show()

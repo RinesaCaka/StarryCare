@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question3"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp" />
+
+    <CheckBox
+        android:id="@+id/quotesCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question3_answer1"
+        android:buttonTint="#FFC1CC"
+        android:textColor="@android:color/black"
+        android:padding="8dp" />
+
+    <CheckBox
+        android:id="@+id/affirmationsCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question3_answer2"
+        android:buttonTint="#FFC1CC"
+        android:textColor="@android:color/black"
+        android:padding="8dp" />
+
+    <CheckBox
+        android:id="@+id/challengesCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question3_answer3"
+        android:buttonTint="#FFC1CC"
+        android:textColor="@android:color/black"
+        android:padding="8dp" />
+
+</LinearLayout>

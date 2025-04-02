@@ -44,8 +44,11 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.database)
+    implementation(libs.androidx.viewpager2)
+    implementation(libs.airbnb.lottie)
     testImplementation(libs.junit)
     implementation(libs.firebase.auth)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }
